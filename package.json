@@ -1,0 +1,27 @@
+{
+  "name": "express-todo",
+  "version": "1.0.0",
+  "description": "Todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test ava --watch"
+  },
+  "author": "Sindre Seppola (http://github.com/sseppola)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "supertest": "^1.2.0"
+  },
+  "ava": {
+    "files": [
+      "tests.js"
+    ]
+  }
+}
